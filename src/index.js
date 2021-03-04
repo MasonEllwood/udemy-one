@@ -9,13 +9,17 @@ if (module.hot) {
 // create a react component
 
 const App = () => {
+    const buttonText = 'Click Me!';
+
     return (
         <div>
             <label className="name" for="name">
                 Enter Name:
             </label>
             <input id="name" type="text" />
-            <button style={{ backgroundColor: 'blue', color: 'white' }}>Submit</button>
+            <button style={{ backgroundColor: 'blue', color: 'white' }}>
+                {buttonText}
+            </button>
         </div>  
     );
 };
