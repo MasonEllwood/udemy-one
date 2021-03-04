@@ -11,7 +11,7 @@ if (module.hot) {
 const App = () => {
     return (
         <div>
-            <label class="name" for="name">
+            <label className="name" for="name">
                 Enter Name:
             </label>
             <input id="name" type="text" />
