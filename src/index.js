@@ -9,8 +9,16 @@ if (module.hot) {
 // create a react component
 
 const App = () => {
-    return <div>Hi there!</div>;
-}
+    return (
+        <div>
+            <label class="name" for="name">
+                Enter Name:
+            </label>
+            <input id="name" type="text" />
+            <button style={{ backgroundColor: 'blue', color: 'white' }}>Submit</button>
+        </div>  
+    );
+};
 
 // take react component and show it to the screen
 
